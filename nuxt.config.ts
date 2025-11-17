@@ -38,56 +38,23 @@ const MyPreset = definePreset(Aura, {
     colorScheme: {
       light: {
         text: {
-          color: "#000000",
+          color: "#ffffff",
         },
         content: {
-          background: '#ffffff', // light mode background color
+          background: '#ee1c25', // light mode background color
         },
         primary: {
-          color: '{sky.800}',
-          inverseColor: '{surface.0}',
-          hoverColor: '{sky.700}',
-          activeColor: '{sky.500}'
-        },
-        highlight: {
-          background: '{sky.50}',
-        },
-      },
-      dark: {
-        text: {
-          color: '{surface.0}',
-        },
-        content: {
-          background: '#000000', // dark mode background color
-        },
-        primary: {
-          color: '{sky.500}',
+          color: '#22222d',
           inverseColor: '#000000',
-          hoverColor: '{sky.300}',
-          activeColor: '{sky.300}'
+          hoverColor: '#ee1c25',
+          activeColor: '{red.500}'
         },
         highlight: {
-          background: '{surface.950}',
+          background: '#22222d',
         },
       }
     },
   },
-  button: {
-    colorScheme: {
-      light: {
-        outlined: {
-          primary: {
-            hoverBackground: '{red.50}',
-            activeBackground: '{red.100}',
-            borderColor: '{red.200}',
-            color: '{red.500}'
-          },
-        },
-      },
-    },
-  },
-  components: {
-  }
 })
 
 export default defineNuxtConfig({
@@ -131,7 +98,7 @@ export default defineNuxtConfig({
       mode: "out-in",
     },
     head: {
-      title: 'Nuxt 4 Boilerplate', // default fallback title
+      title: 'Caving Kaine', // default fallback title
       htmlAttrs: {
         lang: 'en',
       },

@@ -28,13 +28,10 @@ img {
 }
 
 a {
-    color: var(--p-primary-color);
-    text-decoration: none;
+    color: white;
+    text-decoration: underline;
     -webkit-touch-callout: none; /* disable the iOS long press action */
     -webkit-user-select: none; /* disable text selection */
-    &:hover {
-        text-decoration: underline;
-    }
     &.plain {
         text-decoration: none;
     }
@@ -93,4 +90,5 @@ a {
 // primevue overrides
 .p-button-label {
     text-transform: uppercase !important;
+    font-weight: 600 !important;
 }
